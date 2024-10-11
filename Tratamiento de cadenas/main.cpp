@@ -25,7 +25,6 @@ int main() {
         case 1:
             system("cls");
             system("src\\menu-scripts\\busqueda\\x64\\Debug\\Busqueda.exe");
-            //cin.ignore();
             cin.get();
             break;
         case 2:
