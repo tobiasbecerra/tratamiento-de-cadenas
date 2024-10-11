@@ -30,7 +30,7 @@ int main() {
             break;
         case 2:
             system("cls");
-            system("src\\menu-scripts\\compresion\\Compresion\\x64\\Debug\\compresion.exe");
+            system("src\\menu-scripts\\compresion\\x64\\Debug\\Compresion.exe");
             cin.get();
             break;
         case 3:
