@@ -40,7 +40,7 @@ int main() {
             break;
         case 4:
             system("cls");
-            system("src\\menu-scripts\\cifrado-poligrafico\\cifradoPoligrafico\\x64\\Debug\\cifradoPoligrafico.exe");
+            system("src\\menu-scripts\\cifrado-poligrafico\\x64\\Debug\\cifradoPoligrafico.exe");
             cin.get();
             break;
         case 5:

@@ -5,58 +5,41 @@ using namespace std;
 
 
 void mostrarSubMenuPoligrafico() {
-
-    cout << "===== MENU POLIGRAFICO =====" << endl;
-
-    cout << "1. Playfair " << endl;
-
-    cout << "2. Hill " << endl;
-
-    cout << "3. Volver al menu " << endl;
-
-    cout << "============================" << endl;
-
+    cout << "======= MENU DE POLIGRAFICO =======" << endl;
+    cout << "\n\t1. Playfair " << endl;
+    cout << "\t2. Hill " << endl;
+    cout << "\t3. Volver al menu " << endl;
+    cout << "\n===================================" << endl;
 }
 
 
 
 int main() {
-
     int opcion;
-
     do {
-
+        system("cls");
         mostrarSubMenuPoligrafico();
-
         cout << "Seleccione una opcion: ";
-
         cin >> opcion;
-
         switch (opcion) {
-
         case 1:
-
+            system("cls");
             cout << "1. Playfair " << endl;
-
+            cin.ignore();
+            cin.get();
             break;
-
         case 2:
-
+            system("cls");
             cout << "2. Hill " << endl;
-
-
+            cin.ignore();
+            cin.get();
             break;
-
         case 3:
-
-            cout << "Saliendo del programa..." << endl;
-
             break;
-
         default:
-
-            cout << "Opcion no valida, intente nuevamente." << endl;
-
+            cout << "Opcion no valida, presione cualquier tecla para intentar nuevamente." << endl;
+            cin.ignore();
+            cin.get();
         }
 
     } while (opcion != 3);
