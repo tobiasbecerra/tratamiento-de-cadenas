@@ -35,7 +35,7 @@ int main() {
             break;
         case 3:
             system("cls");
-            system("src\\menu-scripts\\cifrado-sustitucion\\cifradoSustitucion\\x64\\Debug\\cifradoSustitucion.exe");
+            system("src\\menu-scripts\\cifrado-sustitucion\\x64\\Debug\\cifradoSustitucion.exe");
             cin.get();
             break;
         case 4:
